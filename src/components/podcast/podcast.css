@@ -1,0 +1,71 @@
+/* Colour changing effect */
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: red;
+  --color-2: green;
+  --color-3: #fbbc04;
+  --color-4: blue;
+}
+
+.title-word-2 {
+  --color-1: blue;
+  --color-2: red;
+  --color-3: green;
+  --color-4: #fbbc04;
+}
+
+.title-word-3 {
+  --color-1: #fbbc04;
+  --color-2: blue;
+  --color-3: red;
+  --color-4: green;
+}
+
+.title-word-4 {
+  --color-1: green;
+  --color-2: #fbbc04;
+  --color-3: blue;
+  --color-4: red;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+
+  22% {
+    color: var(--color-1);
+  }
+
+  23% {
+    color: var(--color-2);
+  }
+
+  55% {
+    color: var(--color-2);
+  }
+
+  56% {
+    color: var(--color-3);
+  }
+
+  79% {
+    color: var(--color-3);
+  }
+
+  80% {
+    color: var(--color-1);
+  }
+
+  89% {
+    color: var(--color-1);
+  }
+
+  100% {
+    color: var(--color-4);
+  }
+}

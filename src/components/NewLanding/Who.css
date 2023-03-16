@@ -1,0 +1,71 @@
+/* Colour changing effect */
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #3a86ff;
+  --color-2: #fb5607;
+  --color-3: #ff006e;
+  --color-4: #8338ec;
+}
+
+.title-word-2 {
+  --color-1: #3a86ff;
+  --color-2: #fb5607;
+  --color-3: #ff006e;
+  --color-4: #8338ec;
+}
+
+.title-word-3 {
+  --color-1: #3a86ff;
+  --color-2: #fb5607;
+  --color-3: #ff006e;
+  --color-4: #8338ec;
+}
+
+.title-word-4 {
+  --color-1: #3a86ff;
+  --color-2: #fb5607;
+  --color-3: #ff006e;
+  --color-4: #8338ec;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+
+  22% {
+    color: var(--color-1);
+  }
+
+  23% {
+    color: var(--color-2);
+  }
+
+  55% {
+    color: var(--color-2);
+  }
+
+  56% {
+    color: var(--color-3);
+  }
+
+  79% {
+    color: var(--color-3);
+  }
+
+  80% {
+    color: var(--color-1);
+  }
+
+  89% {
+    color: var(--color-1);
+  }
+
+  100% {
+    color: var(--color-4);
+  }
+}
